@@ -1,2 +1,11 @@
 server:
   port: 9292
+
+###ThymeLeaf配置
+  spring:
+    thymeleaf:
+      mode: HTML5
+      encoding: UTF-8
+      cache: false
+      prefix: classpath:/templates/
+
